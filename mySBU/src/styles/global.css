@@ -5,29 +5,37 @@
   outline: 0;
 }
 body {
-  margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
-  
+  /* margin: 0; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 html {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-/* .mainWrapper {
-    width: 100vw;
-    height: 100vh;
-} */
+.blueText {
+  color: #13C4B9;
+}
 
+.pinkText {
+  color: #FF007C;
+}
 
-
-
-
-
+.introWrapper {
+  padding-top: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+}
 
 /*Main Brown Colors*/
 
-.w3-theme2-l5 {color:#000 !important; background-color:#fffbf2 !important}
+/* .w3-theme2-l5 {color:#000 !important; background-color:#fffbf2 !important}
 .w3-theme2-l4 {color:#000 !important; background-color:#fff1d4 !important}
 .w3-theme2-l3 {color:#000 !important; background-color:#fee3a8 !important}
 .w3-theme2-l2 {color:#000 !important; background-color:#fed57d !important}
@@ -48,11 +56,10 @@ html {
 
 .w3-hover-theme2:hover {color:#000 !important; background-color:#fdb725 !important}
 .w3-hover-text-theme2:hover {color:#fdb725 !important}
-.w3-hover-border-theme2:hover {border-color:#fdb725 !important}
-
+.w3-hover-border-theme2:hover {border-color:#fdb725 !important} */
 
 /*Secondary Yellow*/
-.w3-theme-l5 {color:#000 !important; background-color:#f9eeeb !important}
+/* .w3-theme-l5 {color:#000 !important; background-color:#f9eeeb !important}
 .w3-theme-l4 {color:#000 !important; background-color:#edc5be !important}
 .w3-theme-l3 {color:#fff !important; background-color:#da8b7d !important}
 .w3-theme-l2 {color:#fff !important; background-color:#c8503b !important}
@@ -73,4 +80,4 @@ html {
 
 .w3-hover-theme:hover {color:#fff !important; background-color:#471c14 !important}
 .w3-hover-text-theme:hover {color:#471c14 !important}
-.w3-hover-border-theme:hover {border-color:#471c14 !important}
+.w3-hover-border-theme:hover {border-color:#471c14 !important} */

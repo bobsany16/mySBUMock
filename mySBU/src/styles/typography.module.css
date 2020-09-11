@@ -1,0 +1,33 @@
+.headingText {
+  font-size: 5em;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 3px;
+}
+
+.bodyTextDefault {
+  font-size: 2em;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 45px;
+}
+.bodyTextBold {
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyTextSmall {
+    font-size: 0.5em;
+    font-weight: lighter; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+    
+}

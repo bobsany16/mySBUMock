@@ -12,5 +12,6 @@ export const Colors ={
     'LightYellow': '#fee3a8',
     'LightestYellow': 'fff1d4',
     'YellowWhite': '#fffbf2',
+    Black: '#ffffff'
 
 }

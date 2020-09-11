@@ -2,6 +2,7 @@ import React from "react"
 import styles from "../styles/navBarStyles.module.css"
 import { Link } from "gatsby"
 import HamburgerMenu from "react-hamburger-menu"
+import { Colors } from "./Colors"
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -26,17 +27,19 @@ class NavBar extends React.Component {
           <HamburgerMenu
             isOpen={this.state.open}
             menuClicked={this.handleClick.bind(this)}
-            color={"#ffffff"}
+            color={Colors.Black}
             width={20}
             height={17}
           ></HamburgerMenu>
         </span>
 
-        <Link to="/" className={styles.logo}>
-          My.SBU
-        </Link>
+        <div className={styles.logoWrapper}>
+          <Link to="/" className={styles.logo}>
+            <h2>LN</h2>
+          </Link>
+        </div>
 
-        <ul className={styles.mainNav} id="js-menu">
+        {/* <ul className={styles.mainNav} id="js-menu">
           <li>
             <Link to="/" className={styles.navLinks}>
               Office 365 Mail
@@ -62,7 +65,7 @@ class NavBar extends React.Component {
               Tech Assistance
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     )
   }
